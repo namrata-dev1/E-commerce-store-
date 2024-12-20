@@ -1,0 +1,34 @@
+/* Custom styles */
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#cart-items .card,
+#checkout-items .card {
+    margin-bottom: 1rem;
+}
+
+#cart-items .card-body,
+#checkout-items .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control button {
+    padding: 0.25rem 0.5rem;
+}
+
+.quantity-control span {
+    margin: 0 0.5rem;
+}
